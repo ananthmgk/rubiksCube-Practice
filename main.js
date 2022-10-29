@@ -31,7 +31,6 @@ window.onload = function() {
     let bottomButton = document.getElementById("bottom-btn")
 
     leftButton.addEventListener("click", img1.onload = () => {
-        ctx.drawImage(img1, x, y, img1W, img1H);
         let startInterval = setInterval(leftMove, speed);
         return startInterval;
     });
